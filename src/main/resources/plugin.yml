@@ -1,0 +1,17 @@
+name: ${name}
+version: ${version}
+description: ${description}
+author: ${author}
+website: ${url}
+softdepend: [PermissionsEx,viaversion]
+
+main: ${mainClass}
+
+commands:
+  pexnametag:
+    description: PEXNameTag
+    usage: |
+           Usage:
+           /<command> reload - Reload player name tag.
+           /<command> set <group> <prefix> - Set prefix for old client version.
+permissions: {}
